@@ -1,0 +1,48 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: rgb(161, 177, 190);
+    text-align: center;
+}
+
+.container{
+    border-radius: 20px;
+    background-color: white;
+    margin: 20px auto;
+    width: 900px;
+    padding: 50px;
+    display: flex;
+}
+.data h1{
+    margin-top: 80px;
+    font-size: 60px;
+}
+.cookie{
+    width: 50%;
+    text-align: center;
+}
+.clicked{
+    transform: scale(0.95);
+}
+.data{
+    width: 50%;
+    text-align: center;
+}
+.hability{
+    display: flex;
+    background-color: aqua;
+}
+.hability:hover{
+    cursor:pointer;
+}
+.hability .quantity{
+    font-size: 30px;
+    font-weight: 600;
+    width: 60px;
+    margin:0;
+}
+.hability *{
+    align-self: center;
+    height: 60px;
+} 
