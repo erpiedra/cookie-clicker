@@ -29,20 +29,29 @@ body {
     width: 50%;
     text-align: center;
 }
+ol{
+    padding: 15px 10px;
+    background-color: rgb(161, 177, 190);
+    border-radius: 10px;
+}
 .hability{
     display: flex;
-    background-color: aqua;
+    margin-bottom: 10px;
 }
 .hability:hover{
     cursor:pointer;
 }
-.hability .quantity{
-    font-size: 30px;
+.quantity{
     font-weight: 600;
-    width: 60px;
-    margin:0;
 }
 .hability *{
+    background-color: rgb(255, 207, 144);
     align-self: center;
-    height: 60px;
-} 
+    margin: 0;
+    padding:20px 30px;
+    border: 3px solid black;
+    border-radius: 10px;
+}  
+.quantity ~ p{
+    width:100%;
+}
